@@ -68,18 +68,18 @@ $mail = new PHPMailer(true);
 try{
 $mail->isSMTP();
 $mail->Host = 'smtp.gmail.com';
-$mail->Username ='m.dee.5055@gmail.com';
-$mail->Password = 'amlaocvwjjeloeta';
+$mail->Username ='';  //Add your Email here
+$mail->Password = '';  //Add your Email password here
 $mail->SMTPAuth=true;
 $mail->Port = '587';
 $mail->SMTPSecure = 'tls';
-$mail->setFrom('m.dee.5055@gmail.com', 'Deepak');
+$mail->setFrom('', '');  //Add your Email here and the name 
 $mail->addAddress($email);
 $mail->isHTML(true);
 $mail->Subject='Your OTP Code';
 $mail->Body = "Here is your OTP code: <br> $otp";
 $mail->send();
 }catch(Exception $e)
-    {echo $e;}
+    {echo $e;}    
 }
 
