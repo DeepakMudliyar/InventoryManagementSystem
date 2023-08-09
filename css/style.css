@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'Segoe UI Light';
+    src: url('.././font/segoeuil.ttf');
+}
+
+body {
+    background-color: #c7c7c7;
+}
+
+.title_container {
+    display: block;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    /* height: min-content; */
+    overflow: none;
+}
+
+.titlee {
+    text-align: center;
+    font-size: x-large;
+    /* font-weight: 10000; */
+    /* height: max-content; */
+}
+
+.dropdownmenu_container {
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Segoe UI Light';
+    font-weight: 100;
+    font-style: oblique;
+    font-size: 2.10em;
+    text-shadow: 0px 1px 3px rgba(150, 150, 150, 1);
+}
+
+
+.logout_btn {
+    /* display: block; */
+    /* right: 5px;
+    bottom: 5px; */
+    float: right;
+    margin-top: 7px;
+    margin-right: 7px;
+}
+
+
+#center {
+    text-align: center;
+}
+
+.btn_pos {
+    margin-left: 3%;
+    display: flex;
+}
+
+.btn_pos_search {
+    /* display: block; */
+    white-space: nowrap;
+    /* margin: auto; */
+}
+
+
+.container_form {
+    float: center;
+    margin: auto;
+    padding: 20px;
+    width: 60%;
+    border: 1.5px solid black;
+}
+
+.form_input_box {
+    width: 70%;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    white-space: nowrap;
+}
+
+.form_btn_pos {
+    margin: auto;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+
+.table_margin {
+    background-color: #f9f9f9;
+    width: 98%;
+    margin: auto;
+    border: 3px solid #9d9898;
+}
+
+.table-bordered {
+    border: 1px solid black !important;
+}
+
+
+p {
+    text-align: center;
+    font-family: 'Segoe UI Light';
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.55em;
+}
+
+
+.panel-panel-default {
+    text-align: center;
+}
+
+.panel-heading{
+    text-align: center;
+}
+
+.p_font {
+    text-align: center;
+    font-family: 'Segoe UI Light';
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.55em;
+}
